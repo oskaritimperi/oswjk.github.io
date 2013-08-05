@@ -49,7 +49,7 @@ the administrator account password is not empty!)
 - run `Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Lsa forceguest 0` or
   the same command with `1` at the end
 - try [this](http://www.shirmanov.com/2011/04/winrm-access-is-denied-on-local.html) tip
-- `winrm set winrm/config/client/auth @{Basic="true"}`
+- see the troubleshooting section for the WinRM library
 
 If the tips here do not work, you should be able to find more by
 googling.
